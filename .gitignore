@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Streamlit cache and logs
+.streamlit/config.toml
+.streamlit/*.json
+.streamlit/*.log
+.streamlit/cache/
+.streamlit/secrets.toml
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+
+# Excel/CSV data (if sensitive)
+data/*.xlsx
+data/*.csv
